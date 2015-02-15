@@ -21,6 +21,6 @@ Loodav lahendus peab võimaldama:
   - Häälte jagunemine konkreetsete kandidaatide lõikes
 
 Liikmed:
-- Kevin Kattai
+- Kevin Kattai - kevinkattai@gmail.com
 - Vladislav Stafinjak
 - Joonas Kriisk
