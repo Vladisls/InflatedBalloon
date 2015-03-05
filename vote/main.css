@@ -1,0 +1,110 @@
+/*MAINCSS*/
+
+.header{
+    background-color: rgba(255,255,255,0.25);
+    width: 70%;
+    height: 180px;
+    padding: 10px;
+    border: 1px solid black;
+    margin-top: 5%;
+    margin-left: 13%;
+    border-radius: 10px;
+}
+
+.headerbutton{
+    width: 16%;
+    background-color: rgb(4,6,59);
+    height: 35px;
+    float: right;
+    margin-top: 145px;
+    margin-right: 10px;
+    border-radius: 8px;
+    border: 1px solid black;
+    padding: 1px;
+}
+
+.header img{
+    margin-top: -10px;
+    float: left;
+}
+
+.hbuttontext{
+    color: white;
+    font-family: Verdana;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 7px;
+}
+
+.headerbutton:hover {
+    background-color: rgb(0,59,161);
+    box-shadow: 0px 0px 15px 5px rgba(0,0,0, .75);
+}
+
+.bodypart{
+    background-color: rgba(255,255,255,0.25);
+    width: 53%;
+    height: 400px;
+    padding: 10px;
+    border: 1px solid black;
+    margin-top: 1%;
+    margin-right: 15.5%;
+    border-radius: 10px;
+    float: right;
+}
+
+.bodypart img{
+    width: 85%;
+    height: 95%;
+    float: right;
+    margin-right: 50px;
+    margin-top: 20px;
+}
+
+.menupart{
+    background-color: rgba(255,255,255,0.25);
+    width: 15%;
+    height: 400px;
+    border: 1px solid black;
+    margin-top: 1%;
+    float: left;
+    border-radius: 10px;
+    margin-left: 13%;
+    padding: 10px;
+    
+}
+
+.menubutton{
+    width: 80%;
+    background-color: rgb(4,6,59);
+    height: 35px;
+    border-radius: 8px;
+    border: 1px solid black;
+    padding: 5px;
+    margin-left: 9%;
+    margin-top: 10%;
+}
+
+.menubutton:hover {
+    background-color: rgb(0,59,161);
+    box-shadow: 0px 0px 15px 5px rgba(0,0,0, .75);
+}
+
+.mbuttontext{
+    color: white;
+    font-family: Verdana;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.footer{
+    background-color: rgba(255,255,255,0.25);
+    width: 70%;
+    height: 30px;
+    padding: 10px;
+    border: 1px solid black;
+    margin-left: 13%;
+    border-radius: 10px;
+    clear: both;
+}
