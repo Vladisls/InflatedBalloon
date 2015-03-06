@@ -4,7 +4,7 @@
     background-color: rgba(255,255,255,0.25);
     width: 70%;
     height: 180px;
-    padding: 10px;
+    padding: 0.7%;
     border: 1px solid black;
     margin-top: 5%;
     margin-left: 13%;
@@ -24,14 +24,16 @@
 }
 
 .header img{
-    margin-top: -10px;
+    margin-top: 1.5%;
     float: left;
+    width: 35%;
+    height: 90%;
 }
 
 .hbuttontext{
     color: white;
     font-family: Verdana;
-    font-size: 18px;
+    font-size: 100%;
     text-align: center;
     margin-top: 7px;
 }
@@ -43,9 +45,9 @@
 
 .bodypart{
     background-color: rgba(255,255,255,0.25);
-    width: 53%;
+    width: 52%;
     height: 400px;
-    padding: 10px;
+    padding: 1%;
     border: 1px solid black;
     margin-top: 1%;
     margin-right: 15.5%;
@@ -57,8 +59,8 @@
     width: 85%;
     height: 95%;
     float: right;
-    margin-right: 50px;
-    margin-top: 20px;
+    margin-right: 1%;
+    margin-top: 1%;
 }
 
 .menupart{
@@ -70,7 +72,7 @@
     float: left;
     border-radius: 10px;
     margin-left: 13%;
-    padding: 10px;
+    padding: 1%;
     
 }
 
@@ -80,7 +82,7 @@
     height: 35px;
     border-radius: 8px;
     border: 1px solid black;
-    padding: 5px;
+    padding: 0.5%;
     margin-left: 9%;
     margin-top: 10%;
 }
@@ -108,3 +110,19 @@
     border-radius: 10px;
     clear: both;
 }
+
+.clearfix:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+     }
+
+
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* close commented backslash hack */
