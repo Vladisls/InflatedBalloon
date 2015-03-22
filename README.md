@@ -2,6 +2,7 @@ Welcome to the InflatedBalloon wiki!
 
 # InflatedBalloon
 Veebirakendus:    e-hääletus
+
 Testkeskkond : inflatedballoon.cs.ut.ee
 
 Loodav lahendus peab võimaldama:
