@@ -3,7 +3,7 @@ Welcome to the InflatedBalloon wiki!
 # InflatedBalloon
 Veebirakendus:    e-hääletus
 
-Testkeskkond : [Testkeskkond](http://inflatedballoon.cs.ut.ee)
+Testkeskkond : [Testkeskkond](http://eida.st/ib) NB! Testkeskkond on muutunud !!!
 
 Loodav lahendus peab võimaldama:
 
