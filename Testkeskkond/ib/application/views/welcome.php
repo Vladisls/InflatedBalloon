@@ -1,0 +1,1 @@
+Tere, <strong><?php echo $username; ?></strong>! Te olete nüüd sisse logitud. <?php echo anchor('/auth/logout/', 'Logi välja'); ?>

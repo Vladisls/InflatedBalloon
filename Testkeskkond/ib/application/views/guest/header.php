@@ -1,9 +1,12 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
-        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-      <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
-<html lang="en">
-
+<!DOCTYPE html>
+<!--<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">-->
+<!--<html manifest="offline.appcache">-->
     <head>
+        
+
+        <script type="text/javascript" src="./assets/js/cache.js"></script>
         <meta http-equiv="content-type" content="text/html; charset=UTF-8"> 
         <meta charset="utf-8">
         <title>InflatedBalloon</title>
@@ -24,6 +27,11 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
         <!-- Include all compiled plugins (below), or include individual files as needed -->
         <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="./assets/js/jquery.js"></script>
+
+<script type="text/javascript" src="./assets/js/voting.js"></script>
+    
+<!--<link href="./assets/css/main-added.css" rel="stylesheet">-->
         
 </head>
 <body>

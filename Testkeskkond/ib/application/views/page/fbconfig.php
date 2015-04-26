@@ -39,7 +39,7 @@ if ( isset( $session ) ) {
         $_SESSION['FULLNAME'] = $fbfullname;
 	    $_SESSION['EMAIL'] =  $femail;
     /* ---- header location after session ----*/
-  header("Location: "."http://eida.st/ib/");
+  header("Location: "."http://eida.st/ib");
 } else {
   $loginUrl = $helper->getLoginUrl();
  header("Location: ".$loginUrl);

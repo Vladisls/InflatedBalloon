@@ -1,16 +1,4 @@
 
-<!DOCTYPE html>
-<html manifest="offline.appcache">
-<head>
-<script type="text/javascript" src="./assets/js/jquery.js"></script>
-
-<script type="text/javascript" src="./assets/js/voting.js"></script>
-    
-<script type="text/javascript" src="./assets/js/cache.js"></script>
-    
-<link href="./assets/css/main-added.css" rel="stylesheet">
-</head>
-<body>
 <div class="container-fluid">
   <nav class="navbar-default">
   <div class="container-fluid">
@@ -57,7 +45,7 @@
 </nav>
 </div>
  
-<div class="modal fade bs-modal-sm" id="kandideerin" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+<!--<div class="modal fade bs-modal-sm" id="kandideerin" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
   <div class="modal-dialog modal-lg">
     <div class="modal-content">
         <br>
@@ -77,7 +65,6 @@
 
 
 		if($this->session->userdata('logged_in')){
-            echo form_open('addSisu');
 			echo("<div class='sisu'>
                 <table>
                 <tr>
@@ -101,20 +88,19 @@
                 debug_to_console("EI TEINUD");
             }
 			}
-        else{
+        /*else{
             echo("<div class='sisu'><p>Ooops, see funktsioon on kättesaadav ainult kasutajatele, pole hullu:</p>
             <br/>
             <a href='#' id='modal-launcher'  data-toggle='modal' data-target='#myModal'><button type='button' class='btn btn-primary'>Logi sisse</button></a>
             <button type='button' class='btn btn-danger' data-dismiss='modal'>Sulge</button></div>");
-        }
+        }*/
 		?>
-            
-        </div>
+         </div>   
+		 
     </div>
       </div>
-    </div>
-  </div>
-</div>
+    </div>-->
+
     
 <div class="container">
     <br/>
@@ -125,7 +111,6 @@
   <ul class="nav nav-tabs" role="tablist">
     <li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">Esileht</a></li>
     <li role="presentation"><a href="#Kandidaadid" aria-controls="Kandidaadid" role="tab" data-toggle="tab">Kandidaadid</a></li>
-    <li role="presentation"><a href="#messages" aria-controls="messages" role="tab" data-toggle="tab">Hääleta</a></li>
     <li role="presentation"><a href="#settings" aria-controls="settings" role="tab" data-toggle="tab">Erakonnad</a></li>
   </ul>
 
@@ -193,7 +178,7 @@
 				</tr>
     		</tbody>
   		</table>
-               <a href="#" id='modal-launcher'  data-toggle="modal" data-target="#kandideerin"><button type="button" class="btn btn-danger">Kandideerin!</button></a>
+               <!--<a href="#" id='modal-launcher'  data-toggle="modal" data-target="#kandideerin"><button type="button" class="btn btn-danger">Kandideerin!</button></a>-->
 
 
      </div>
@@ -257,8 +242,8 @@ $down=$row['down'];
 </div>
     </div>
     
-</div></body>
-</html>  
+</div>
+    
     <!--
   <div class="jumbotron">
         <div class="product">               
@@ -274,5 +259,9 @@ $down=$row['down'];
 
 
 
-    
+
 <!-- FOOTER  -->
+
+
+
+

@@ -7,7 +7,5 @@ class kandidaadid extends CI_Controller {
 		$data["Kandidaadid"] = $kandidaadid;
 		$this->load->view('kandidaadid/index', $data);
 	}
-	public function view() {
-		echo "hello world";
-	}
+
 }
