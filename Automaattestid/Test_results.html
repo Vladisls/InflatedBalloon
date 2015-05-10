@@ -1,0 +1,516 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<style>
+.failed {color: red; background-color: #ffcccc;}
+.passed {color: green; background-color: #ccffcc;}
+.done {color: #404040; background-color: #ccffcc;}
+.comment {color: #404040; background-color: #d0d0d0;}
+body, table { font-family: Verdana, Arial, sans-serif; font-size: 12pt; }
+table { border-collapse: collapse; border: 1px solid #ccc; }
+th, td { padding-left: 0.3em; padding-right: 0.3em; border: 1px solid #ccc; }
+#suiteSummaryTable thead { font-size: 14pt; font-weight: 800; }
+.test_case thead { font-size: 14pt; font-weight: 400; }
+</style>
+</head>
+<body>
+<table id="suiteSummaryTable" class="selenium">
+<thead><tr class="failed"><td>Test Suite: Test_cases</td></tr></thead>
+<tbody>
+<tr><td>Test cases: 6 total / <span class="passed">5</span> passed / <span class="failed">1</span> failed</td></tr>
+<tr><td>Commands: 77 total / <span class="passed">76</span> passed / <span class="failed">1</span> failed / <span class="skipped">0</span> skipped</td></tr>
+</tbody></table><br>
+<table id="suiteTable" class="selenium">
+<thead><tr><td>Index of test cases</td></tr></thead>
+<tbody>
+<tr class="passed"><td><a href="#test0">Test_case_1</a></td></tr>
+<tr class="passed"><td><a href="#test1">Test_case_2</a></td></tr>
+<tr class="passed"><td><a href="#test2">Test_case_3</a></td></tr>
+<tr class="failed"><td><a href="#test3">Test_case_4</a></td></tr>
+<tr class="passed"><td><a href="#test4">Test_case_5</a></td></tr>
+<tr class="done"><td><a href="#test5">Test_case_6</a></td></tr>
+
+</tbody></table>
+
+<br><hr><br><a name="test0"></a><table class="test_case"><thead><tr><td colspan="4">Test case: Test_case_1</td></tr></thead><tbody><tr class="done">
+	<td>open</td>
+	<td>http://eida.st/ib</td>
+	<td></td>
+	<td></td>
+</tr>
+<tr class="done">
+	<td>click</td>
+	<td>link=Kandidaadid</td>
+	<td></td>
+	<td></td>
+</tr>
+<tr class="passed">
+	<td>verifyText</td>
+	<td>//div[@id='Kandidaadid']/table/tbody/tr/td[2]</td>
+	<td>Hellsss</td>
+	<td></td>
+</tr>
+<tr class="done">
+	<td>click</td>
+	<td>link=Esileht</td>
+	<td></td>
+	<td></td>
+</tr>
+<tr class="done">
+	<td>click</td>
+	<td>link=Kandidaadid</td>
+	<td></td>
+	<td></td>
+</tr>
+<tr class="passed">
+	<td>verifyText</td>
+	<td>//div[@id='Kandidaadid']/table/tbody/tr/td[2]</td>
+	<td>Hellsss</td>
+	<td></td>
+</tr>
+<tr class="passed">
+	<td>verifyNotText</td>
+	<td>css=h2</td>
+	<td>Welcome</td>
+	<td></td>
+</tr>
+
+</tbody></table>
+
+<br><hr><br><a name="test1"></a><table class="test_case"><thead><tr><td colspan="4">Test case: Test_case_2</td></tr></thead><tbody><tr class="done">
+	<td>open</td>
+	<td>http://eida.st/ib/</td>
+	<td></td>
+	<td></td>
+</tr>
+<tr class="done">
+	<td>click</td>
+	<td>link=Minu kasutaja</td>
+	<td></td>
+	<td></td>
+</tr>
+<tr class="done">
+	<td>click</td>
+	<td>id=modal-launcherLogin</td>
+	<td></td>
+	<td></td>
+</tr>
+<tr class="done">
+	<td>type</td>
+	<td>id=email</td>
+	<td>test2@abc.com</td>
+	<td></td>
+</tr>
+<tr class="done">
+	<td>type</td>
+	<td>id=password</td>
+	<td>test</td>
+	<td></td>
+</tr>
+<tr class="done">
+	<td>clickAndWait</td>
+	<td>css=input.btn.btn-danger</td>
+	<td></td>
+	<td></td>
+</tr>
+<tr class="passed">
+	<td>verifyText</td>
+	<td>css=h2</td>
+	<td>glob:Welcome*</td>
+	<td></td>
+</tr>
+<tr class="done">
+	<td>click</td>
+	<td>link=Minu kasutaja</td>
+	<td></td>
+	<td></td>
+</tr>
+<tr class="done">
+	<td>click</td>
+	<td>id=modal-launcherLogin</td>
+	<td></td>
+	<td></td>
+</tr>
+<tr class="done">
+	<td>clickAndWait</td>
+	<td>link=Logout</td>
+	<td></td>
+	<td></td>
+</tr>
+<tr class="passed">
+	<td>verifyNotText</td>
+	<td>css=h2</td>
+	<td>Welcome</td>
+	<td></td>
+</tr>
+
+</tbody></table>
+
+<br><hr><br><a name="test2"></a><table class="test_case"><thead><tr><td colspan="4">Test case: Test_case_3</td></tr></thead><tbody><tr class="done">
+	<td>open</td>
+	<td>http://eida.st/ib/</td>
+	<td></td>
+	<td></td>
+</tr>
+<tr class="passed">
+	<td>verifyNotText</td>
+	<td>link=Hääleta</td>
+	<td>Hääleta</td>
+	<td></td>
+</tr>
+<tr class="done">
+	<td>click</td>
+	<td>link=Minu kasutaja</td>
+	<td></td>
+	<td></td>
+</tr>
+<tr class="done">
+	<td>click</td>
+	<td>id=modal-launcherLogin</td>
+	<td></td>
+	<td></td>
+</tr>
+<tr class="done">
+	<td>type</td>
+	<td>id=email</td>
+	<td>test2@abc.com</td>
+	<td></td>
+</tr>
+<tr class="done">
+	<td>type</td>
+	<td>id=password</td>
+	<td>test</td>
+	<td></td>
+</tr>
+<tr class="done">
+	<td>clickAndWait</td>
+	<td>css=input.btn.btn-danger</td>
+	<td></td>
+	<td></td>
+</tr>
+<tr class="passed">
+	<td>verifyText</td>
+	<td>link=Hääleta</td>
+	<td>Hääleta</td>
+	<td></td>
+</tr>
+<tr class="done">
+	<td>click</td>
+	<td>link=Hääleta</td>
+	<td></td>
+	<td></td>
+</tr>
+<tr class="done">
+	<td>click</td>
+	<td>link=Minu kasutaja</td>
+	<td></td>
+	<td></td>
+</tr>
+<tr class="done">
+	<td>click</td>
+	<td>id=modal-launcherLogin</td>
+	<td></td>
+	<td></td>
+</tr>
+<tr class="done">
+	<td>clickAndWait</td>
+	<td>link=Logout</td>
+	<td></td>
+	<td></td>
+</tr>
+<tr class="passed">
+	<td>verifyNotText</td>
+	<td>css=h2</td>
+	<td>Welcome</td>
+	<td></td>
+</tr>
+
+</tbody></table>
+
+<br><hr><br><a name="test3"></a><table class="test_case"><thead><tr><td colspan="4">Test case: Test_case_4</td></tr></thead><tbody><tr class="done">
+	<td>open</td>
+	<td>http://eida.st/ib/</td>
+	<td></td>
+	<td></td>
+</tr>
+<tr class="done">
+	<td>click</td>
+	<td>link=Minu kasutaja</td>
+	<td></td>
+	<td></td>
+</tr>
+<tr class="done">
+	<td>click</td>
+	<td>id=modal-launcherLogin</td>
+	<td></td>
+	<td></td>
+</tr>
+<tr class="done">
+	<td>type</td>
+	<td>id=email</td>
+	<td>test11@abc.com</td>
+	<td></td>
+</tr>
+<tr class="done">
+	<td>type</td>
+	<td>id=password</td>
+	<td>test</td>
+	<td></td>
+</tr>
+<tr class="done">
+	<td>clickAndWait</td>
+	<td>css=input.btn.btn-danger</td>
+	<td></td>
+	<td></td>
+</tr>
+<tr class="done">
+	<td>click</td>
+	<td>link=Hääleta</td>
+	<td></td>
+	<td></td>
+</tr>
+<tr class="done">
+	<td>storeText</td>
+	<td>id=3</td>
+	<td>haali</td>
+	<td></td>
+</tr>
+<tr class="done">
+	<td>click</td>
+	<td>id=3</td>
+	<td></td>
+	<td></td>
+</tr>
+<tr class="done">
+	<td>storeEval</td>
+	<td>${haali} + 1</td>
+	<td>haaled</td>
+	<td></td>
+</tr>
+<tr class="failed">
+	<td>verifyText</td>
+	<td>id=3</td>
+	<td>${haaled}</td>
+	<td>Actual value '1' did not match '2'</td>
+</tr>
+<tr class="done">
+	<td>click</td>
+	<td>link=Minu kasutaja</td>
+	<td></td>
+	<td></td>
+</tr>
+<tr class="done">
+	<td>click</td>
+	<td>id=modal-launcherLogin</td>
+	<td></td>
+	<td></td>
+</tr>
+<tr class="done">
+	<td>clickAndWait</td>
+	<td>link=Logout</td>
+	<td></td>
+	<td></td>
+</tr>
+
+</tbody></table>
+
+<br><hr><br><a name="test4"></a><table class="test_case"><thead><tr><td colspan="4">Test case: Test_case_5</td></tr></thead><tbody><tr class="done">
+	<td>open</td>
+	<td>http://eida.st/ib/</td>
+	<td></td>
+	<td></td>
+</tr>
+<tr class="done">
+	<td>click</td>
+	<td>link=Minu kasutaja</td>
+	<td></td>
+	<td></td>
+</tr>
+<tr class="done">
+	<td>click</td>
+	<td>id=modal-launcherLogin</td>
+	<td></td>
+	<td></td>
+</tr>
+<tr class="done">
+	<td>type</td>
+	<td>id=email</td>
+	<td>test2@abc.com</td>
+	<td></td>
+</tr>
+<tr class="done">
+	<td>type</td>
+	<td>id=password</td>
+	<td>test</td>
+	<td></td>
+</tr>
+<tr class="done">
+	<td>clickAndWait</td>
+	<td>css=input.btn.btn-danger</td>
+	<td></td>
+	<td></td>
+</tr>
+<tr class="done">
+	<td>click</td>
+	<td>link=Hääleta</td>
+	<td></td>
+	<td></td>
+</tr>
+<tr class="done">
+	<td>storeText</td>
+	<td>id=1</td>
+	<td>haaled_alg</td>
+	<td></td>
+</tr>
+<tr class="done">
+	<td>storeEval</td>
+	<td>${haaled_alg} + 0</td>
+	<td>haaled</td>
+	<td></td>
+</tr>
+<tr class="done">
+	<td>click</td>
+	<td>id=1</td>
+	<td></td>
+	<td></td>
+</tr>
+<tr class="passed">
+	<td>verifyText</td>
+	<td>id=1</td>
+	<td>${haaled}</td>
+	<td></td>
+</tr>
+<tr class="done">
+	<td>click</td>
+	<td>link=Minu kasutaja</td>
+	<td></td>
+	<td></td>
+</tr>
+<tr class="done">
+	<td>click</td>
+	<td>id=modal-launcherLogin</td>
+	<td></td>
+	<td></td>
+</tr>
+<tr class="done">
+	<td>clickAndWait</td>
+	<td>link=Logout</td>
+	<td></td>
+	<td></td>
+</tr>
+<tr class="passed">
+	<td>verifyNotText</td>
+	<td>css=h2</td>
+	<td>Welcome</td>
+	<td></td>
+</tr>
+
+</tbody></table>
+
+<br><hr><br><a name="test5"></a><table class="test_case"><thead><tr><td colspan="4">Test case: Test_case_6</td></tr></thead><tbody><tr class="done">
+	<td>store</td>
+	<td>javascript{Math.floor(Math.random()*32000)}</td>
+	<td>i</td>
+	<td></td>
+</tr>
+<tr class="done">
+	<td>open</td>
+	<td>http://eida.st/ib/</td>
+	<td></td>
+	<td></td>
+</tr>
+<tr class="done">
+	<td>click</td>
+	<td>link=Minu kasutaja</td>
+	<td></td>
+	<td></td>
+</tr>
+<tr class="done">
+	<td>click</td>
+	<td>link=Registreeri</td>
+	<td></td>
+	<td></td>
+</tr>
+<tr class="done">
+	<td>type</td>
+	<td>id=email_r</td>
+	<td>test${i}@abc.com</td>
+	<td></td>
+</tr>
+<tr class="done">
+	<td>type</td>
+	<td>id=password_r</td>
+	<td>test</td>
+	<td></td>
+</tr>
+<tr class="done">
+	<td>type</td>
+	<td>id=con_password_r</td>
+	<td>test</td>
+	<td></td>
+</tr>
+<tr class="done">
+	<td>clickAndWait</td>
+	<td>css=input.btn.btn-success</td>
+	<td></td>
+	<td></td>
+</tr>
+<tr class="done">
+	<td>waitForElementPresent</td>
+	<td>link=Minu kasutaja</td>
+	<td></td>
+	<td></td>
+</tr>
+<tr class="done">
+	<td>click</td>
+	<td>link=Minu kasutaja</td>
+	<td></td>
+	<td>Element link=Minu kasutaja not found</td>
+</tr>
+<tr class="done">
+	<td>click</td>
+	<td>id=modal-launcherLogin</td>
+	<td></td>
+	<td></td>
+</tr>
+<tr class="done">
+	<td>type</td>
+	<td>id=email</td>
+	<td>test${i}@abc.com</td>
+	<td></td>
+</tr>
+<tr class="done">
+	<td>type</td>
+	<td>id=password</td>
+	<td>test</td>
+	<td></td>
+</tr>
+<tr class="done">
+	<td>clickAndWait</td>
+	<td>css=input.btn.btn-danger</td>
+	<td></td>
+	<td></td>
+</tr>
+<tr class="done">
+	<td>click</td>
+	<td>link=Minu kasutaja</td>
+	<td></td>
+	<td></td>
+</tr>
+<tr class="done">
+	<td>click</td>
+	<td>id=modal-launcherLogin</td>
+	<td></td>
+	<td></td>
+</tr>
+<tr class="done">
+	<td>clickAndWait</td>
+	<td>link=Logout</td>
+	<td></td>
+	<td></td>
+</tr>
+
+</tbody></table>
+
+</body></html>
